@@ -1,0 +1,16 @@
+# Write your code here :-)
+print ("==========================")
+print ("       HELLO WORLD        ")
+print ("        By Gage           ")
+print ("==========================")
+name = input("What is your name? ")
+print(f"Hello, {name}")
+color = input("What's your favorite color? ")
+print("No way! My favorite color is also " +color)
+movie = input("What's your favorite movie? ")
+print("What!?! My favorite movie is also " +movie )
+game = input("What is your favorite game? ")
+print(f"Get out of here! My favorite game is {game},too!")
+print("We like the same things! We should be best friends!")
+
+
