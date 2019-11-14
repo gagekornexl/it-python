@@ -25,15 +25,18 @@ def tags_in(line):
 
 def main():
     print("Welcome to the HTML tag counter")
-    filename = input("Please enter the name of the HTML file:")
-    data = load(filename)
-    count = 0
-    for line in data:
-        count += tags_in(line)
+    while True:
+        filename = input("Please enter the name of the HTML file:")
+        data = load(filename)
+        count = 0
+        for line in data:
+            count += tags_in(line)
 
-    print(count)
-
-
+        print(count)
+        if input("Would you like to go again (Y/N)? ") == "Y":
+            True
+        else:
+            break
 
 
 
